@@ -8,7 +8,7 @@ a {
   color: #dcddde;
 }
 .container {
-  max-width: 1000px;
+  max-width: 940px;
   margin: 0 auto;
 }
 .dark {
@@ -16,12 +16,13 @@ a {
 }
 
 .header {
-  padding-top: 15px;
+  padding-top: 7px;
   padding-bottom: 15px;
   background-color: #171d25;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 80px;
 }
 .header__logo img {
   width: 170px;
@@ -29,19 +30,71 @@ a {
 }
 .nav {
   display: flex;
-  gap: 16px;
+  gap: 15px;
 }
 .nav__link {
-  font-size: 22px;
+  font-size: 17px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.headerleft {
+.headerright {
   align-self: flex-start;
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
 }
-.headerleft button {
+.headerright button {
   background-color: #5c7e10;
   color: white;
   border-radius: 0px;
   border-style: none;
-  padding: 5px;
+  padding: 5px 10px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gradient {
+  background: rgb(27, 42, 58);
+  background: linear-gradient(
+    90deg,
+    rgba(27, 42, 58, 1) 0%,
+    rgba(32, 78, 97, 1) 27%,
+    rgba(37, 60, 88, 1) 74%,
+    rgba(26, 42, 61, 1) 85%,
+    rgba(27, 41, 57, 1) 100%
+  );
+}
+.mainmenu {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px;
+  background-color: #306199;
+}
+.popular__label {
+  color: white;
+}
+.gamecontainer {
+  display: flex;
+  background-color: #101a23;
+  -webkit-box-shadow: 0px -1px 6px 7px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px -1px 6px 7px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px -1px 6px 7px rgba(0, 0, 0, 0.5);
+}
+.miniscreen img {
+  width: 135px;
+  height: 75px;
+}
+.opisanie {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+}
+.miniscreen {
+  display: flex;
+
+  gap: 8px;
+  flex-wrap: wrap;
 }
