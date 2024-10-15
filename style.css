@@ -20,7 +20,7 @@ body {
 .firstsec {
   display: flex;
   flex-direction: column;
-  gap: 35px;
+  gap: 75px;
 }
 .header {
   padding-top: 7px;
@@ -81,6 +81,7 @@ body {
   background-color: #306199;
 }
 .popular__label {
+  padding-bottom: 12px;
   color: white;
 }
 .gamecontainer {
@@ -131,16 +132,19 @@ body {
 .specialofferzag {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 12px;
 }
 .specialoffer {
   display: flex;
   flex-direction: column;
 }
+
 .specialofferzag__button {
   padding: 2px 10px;
   background-color: transparent;
   color: white;
-  border-style: 2px solid white;
+  border-style: none;
+  outline: 1px solid rgb(196, 196, 196);
 }
 .offercardcontainer {
   display: flex;
@@ -209,8 +213,165 @@ body {
   gap: 12px;
 }
 .categories__label {
+  padding-bottom: 12px;
 }
 .categoria img {
   width: 100%;
   height: 100%;
+}
+.categoria a {
+  display: inline-block;
+
+  position: relative;
+
+  line-height: 0;
+}
+.categoria__gradient-red:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  background-image: linear-gradient(
+    0deg,
+    rgba(217, 18, 42, 1) 8%,
+    rgba(223, 17, 42, 0) 100%
+  );
+  opacity: 0.8;
+}
+
+.categoria__gradient-red:before {
+  content: "СПОРТ";
+  display: inline-block;
+  margin: 0px;
+  font-size: 25px;
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  z-index: 100;
+}
+.categoria__gradient-blue:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  background-image: linear-gradient(
+    0deg,
+    rgb(29, 15, 223) 8%,
+    rgba(223, 17, 42, 0) 100%
+  );
+  opacity: 0.8;
+}
+
+.categoria__gradient-blue:before {
+  content: "ХОРРОР";
+  display: inline-block;
+  margin: 0px;
+  font-size: 25px;
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  z-index: 100;
+}
+.categoria__gradient-yellow:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  background-image: linear-gradient(
+    0deg,
+    rgb(185, 216, 13) 8%,
+    rgba(223, 17, 42, 0) 100%
+  );
+  opacity: 0.8;
+}
+
+.categoria__gradient-yellow:before {
+  content: "ГОЛОВОЛОМКА";
+  display: inline-block;
+  margin: 0px;
+  font-size: 25px;
+  position: absolute;
+  top: 70%;
+  left: 7%;
+  color: white;
+  z-index: 100;
+}
+.categoria__gradient-green:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  background-image: linear-gradient(
+    0deg,
+    rgb(15, 230, 79) 8%,
+    rgba(223, 17, 42, 0) 100%
+  );
+  opacity: 0.8;
+}
+
+.categoria__gradient-green:before {
+  content: "ГОНКИ";
+  display: inline-block;
+  margin: 0px;
+  font-size: 25px;
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  z-index: 100;
+}
+.enterblock {
+  display: flex;
+  flex-direction: column;
+  background-color: #16202d;
+  align-items: center;
+  padding: 25px 0 25px 0px;
+  gap: 25px;
+  color: #8f98a0;
+  font-size: 15px;
+}
+.enterblock__button {
+  background-color: #90af06;
+  color: #f3f7e4;
+  border-style: none;
+  padding: 7px 18px;
+  font-size: 15px;
+  border-radius: 2px;
+}
+.popolarsecrions__container {
+  display: flex;
+  justify-content: space-between;
+}
+.popolarsecrions__news {
+  width: 230px;
+  height: 55px;
+  background: linear-gradient(
+    74deg,
+    rgba(59, 205, 255, 1) 8%,
+    rgba(36, 113, 255, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 3px;
+  font-size: 18px;
+}
+.popolarsecrions__label {
+  padding-bottom: 12px;
 }
