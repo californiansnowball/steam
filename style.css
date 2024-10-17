@@ -383,9 +383,7 @@ body {
   display: flex;
   gap: 7px;
 }
-.undercenacontainer__cenado {
-  padding-bottom: 10px;
-}
+
 .undercenacontainer__block {
   display: flex;
   flex-direction: column;
@@ -407,4 +405,74 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.undercenaline {
+  display: flex;
+  justify-content: space-between;
+}
+.udnercenabuttons button {
+  background-color: transparent;
+  border-style: none;
+  outline: 1px solid white;
+  color: white;
+  border-radius: 1px;
+  padding: 3px 10px;
+  text-align: center;
+}
+.udnercenabuttons {
+  display: flex;
+  gap: 7px;
+}
+.undercenaline {
+  padding-bottom: 10px;
+}
+.categorymenu {
+  display: flex;
+  font-size: 14px;
+  display: flex;
+
+  color: #4b7faa;
+}
+.categorymenu__element {
+  padding: 7px;
+  border-radius: 4px;
+}
+.categorymenu__element:hover {
+  background-color: #2a475e;
+  color: white;
+}
+.gradient2 {
+  background: rgb(27, 40, 56);
+  background: linear-gradient(
+    0deg,
+    rgba(27, 40, 56, 1) 0%,
+    rgba(34, 54, 73, 1) 47%,
+    rgba(38, 64, 84, 1) 100%
+  );
+}
+.gamewidthcategorycontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-top: 5px;
+}
+
+.game {
+  display: flex;
+}
+.game__opis {
+  padding: 10px 15px;
+  min-width: 435px;
+  background-color: #212c3a;
+  color: #687a8a;
+}
+.game__cena {
+  color: white;
+}
+.game__platformandcena {
+  display: flex;
+  justify-content: space-between;
+}
+.game__tag {
+  font-size: 12px;
 }
