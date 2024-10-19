@@ -66,6 +66,14 @@ body {
 .gradient {
   background: #1b2838;
 }
+.backgroundimage {
+  background: url(./img/pagebg.jpg);
+  height: 450px;
+  width: 100%;
+}
+.mainmenucontainer {
+  padding-top: 35px;
+}
 
 .mainmenu {
   display: flex;
@@ -562,4 +570,24 @@ body {
 .enterblock__recomend {
   color: #67c1f5;
   font-size: 25px;
+}
+.grey {
+  background-color: #171a21;
+}
+.footerblock {
+  padding: 45px 0px;
+}
+.footerblock__logos {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+}
+.footerblock__logos img {
+  width: 10%;
+  height: 10%;
+}
+.footerblock__text {
+  font-size: 12px;
+  padding: 5px;
+  color: #8f98a0;
 }
