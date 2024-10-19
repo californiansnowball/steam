@@ -457,6 +457,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 75px;
+  padding-bottom: 75px;
 }
 .gamevirtualline {
   padding-bottom: 10px;
@@ -554,4 +555,11 @@ body {
 }
 .minicard img {
   width: 100%;
+}
+.enterblock_black {
+  background-color: black;
+}
+.enterblock__recomend {
+  color: #67c1f5;
+  font-size: 25px;
 }
