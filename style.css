@@ -15,6 +15,7 @@ body {
   max-width: 940px;
   margin: 0 auto;
 }
+
 .dark {
   background-color: #171d25;
 }
@@ -107,9 +108,9 @@ body {
   color: white;
 }
 .gamecontainer__screen {
-  -webkit-box-shadow: 7px 4px 16px 5px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 7px 4px 16px 5px rgba(0, 0, 0, 0.75);
-  box-shadow: 7px 4px 16px 5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 7px 4px 16px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 7px 4px 16px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 7px 4px 16px 5px rgba(0, 0, 0, 0.5);
 }
 .opisanie__gamename {
   font-size: 25px;
@@ -557,6 +558,19 @@ body {
   width: 180px;
   height: 230px;
   background-color: #2f4d63;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.minicard__cena {
+  padding: 2px;
+  background-color: #4c6b22;
+  color: #aad713;
+  font-size: 25px;
+  width: 40%;
+  text-align: center;
+  margin: 5px;
 }
 .maincard img {
   width: 100%;
@@ -575,7 +589,7 @@ body {
   background-color: #171a21;
 }
 .footerblock {
-  padding: 45px 0px;
+  padding: 45px 0px 15px 0px;
 }
 .footerblock__logos {
   display: flex;
@@ -586,8 +600,31 @@ body {
   width: 10%;
   height: 10%;
 }
-.footerblock__text {
+.footerblocktext {
+  padding-bottom: 15px;
+}
+.footerblocktext__text {
   font-size: 12px;
   padding: 5px;
   color: #8f98a0;
+}
+.footerblocktext__linkscontainer {
+  font-size: 12px;
+  display: flex;
+  color: #8f98a0;
+  flex-wrap: wrap;
+}
+.footerblocktext__linkscontainer a {
+  font-size: 13px;
+  padding: 0px 3px;
+}
+.footerlinks__linkscont {
+  font-size: 13px;
+  color: #838b92;
+}
+.footerlinks {
+  display: flex;
+  padding-bottom: 100px;
+  justify-content: space-between;
+  align-items: center;
 }
