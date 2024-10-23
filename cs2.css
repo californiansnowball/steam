@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto";
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #dcddde;
+}
+body {
+  color: white;
+  font-family: "Roboto";
+}
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.dark {
+  background-color: #171d25;
+}
+
+.header {
+  padding-top: 7px;
+  padding-bottom: 15px;
+  background-color: #171d25;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.headernav {
+  padding: 25px 0px 25px 0px;
+}
+.header__logo img {
+  width: 170px;
+  height: 70px;
+}
+.nav ul {
+  display: flex;
+  gap: 15px;
+}
+.nav__link {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.headerright {
+  align-self: flex-start;
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+}
+.headerright button {
+  background-color: #5c7e10;
+  color: white;
+  border-radius: 0px;
+  border-style: none;
+  padding: 5px 10px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.headerright button:hover {
+  background-color: #7fb310cb;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.blue {
+  background-color: #2681da;
+}
+.noentrybanner {
+  display: flex;
+  padding: 10px 0px;
+  gap: 15px;
+}
+.noentrybanner__link-desktop {
+  background-color: #d7e7f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 5px;
+  border-radius: 2px;
+  font-size: 15px;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.3);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.3);
+  box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.5);
+}
+.noentrybanner__link-desktop:hover {
+  background-color: white;
+}
+.noentrybanner__link-desktop a {
+  color: #3d7291;
+  padding: 0px 15px;
+}
+body {
+  background-color: #1b2838;
+}
+.menu {
+  margin-top: 7px;
+}
+.noentrybanner__descriptopn {
+  color: #a8cef3;
+}
+.menu-links__search {
+  background-color: #316282;
+  border: none;
+  border-radius: 2px;
+}
+.menu-links__search[placeholder] {
+  padding-left: 10px;
+}
+.menu-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+  background: rgb(59, 100, 145);
+  background: linear-gradient(
+    90deg,
+    rgba(59, 100, 145, 1) 0%,
+    rgba(15, 33, 110, 1) 100%
+  );
+}
+.menu-links__link {
+  padding: 7px;
+  font-size: 14px;
+  text-align: center;
+}
+.menu-links__link:hover {
+  background: rgb(48, 127, 192);
+  background: linear-gradient(
+    90deg,
+    rgba(48, 127, 192, 1) 0%,
+    rgba(46, 77, 112, 0) 100%
+  );
+}
+.category-game {
+  color: #8f98a0;
+  font-size: 13px;
+}
+.category-game a {
+  color: #8f98a0;
+  font-size: 13px;
+}
+.category-game a:hover {
+  color: white;
+  font-size: 13px;
+}
+.gamename {
+  display: flex;
+  justify-content: space-between;
+}
+.gamename__centerbutton {
+  background-color: #33516f;
+  padding: 7px 10px;
+  border-radius: 2px;
+}
+.gamename__centerbutton:hover {
+  background-color: #5c86b1;
+  cursor: pointer;
+}
+.gamename__centerbutton a {
+  color: #5fc1e3;
+}
+.gamename__name {
+  font-size: 26px;
+}
+.maingamedescription-container {
+  display: flex;
+}
+.maingamedescription-container-leftside {
+  max-width: 610px;
+}
+.maingamedescription-container__img img {
+  width: 100%;
+  height: 100%;
+}
+.maingamedescription-container__scroll {
+  display: flex;
+  gap: 3px;
+  overflow-x: scroll;
+}
+.maingamedescription-container-rigthside {
+  max-width: 325px;
+}
+.maingamedescription-container-rigthside__img {
+  max-width: 325px;
+}
+.maingamedescription-container-rigthside__img img {
+  width: 325px;
+}
+.maingamedescription-container-rigthside__text {
+  font-size: 13px;
+  color: #c6d4df;
+}
+.maingamedescription-container-rigthside-rewi {
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+}
+.maingamedescription-container-rigthside-rewi__nedavnie {
+  color: #556772;
+}
+.maingamedescription-container-rigthside-rewi__category a {
+  color: #66c0f4;
+}
+.maingamedescription-container-rigthside-date {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #556772;
+}
