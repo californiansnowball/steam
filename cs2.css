@@ -172,11 +172,20 @@ body {
 .gamename__name {
   font-size: 26px;
 }
+.maingamedescription {
+  background: rgb(48, 127, 192);
+  background: linear-gradient(
+    159deg,
+    rgba(48, 127, 192, 0) 0%,
+    rgba(26, 34, 43, 1) 100%
+  );
+}
 .maingamedescription-container {
   display: flex;
+  justify-content: space-between;
 }
 .maingamedescription-container-leftside {
-  max-width: 610px;
+  max-width: 600px;
 }
 .maingamedescription-container__img img {
   width: 100%;
@@ -189,6 +198,9 @@ body {
 }
 .maingamedescription-container-rigthside {
   max-width: 325px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 .maingamedescription-container-rigthside__img {
   max-width: 325px;
@@ -216,4 +228,131 @@ body {
   justify-content: space-between;
   font-size: 12px;
   color: #556772;
+  max-width: 60%;
+}
+.up {
+  text-transform: uppercase;
+  font-size: 11px;
+}
+.razrab-izdatel {
+  max-width: 60%;
+}
+.razrab {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.izdatel {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.razrab__label {
+  color: #556772;
+}
+.izdatel__label {
+  color: #556772;
+}
+.razrab__name {
+  color: #66c0f4;
+}
+.izdatel__name {
+  color: #66c0f4;
+}
+.popular-marker {
+  display: flex;
+  flex-direction: column;
+}
+.popular-marker__label {
+  font-size: 12px;
+  color: #556772;
+}
+.popular-marker-buttons button {
+  color: #66c0f4;
+  background-color: #2b4252;
+  border-style: none;
+  border-radius: 2px;
+  padding: 2px 7px;
+  font-size: 11px;
+}
+.popular-marker-buttons button:hover {
+  color: white;
+  background: rgb(102, 191, 242);
+  background: linear-gradient(
+    159deg,
+    rgba(102, 191, 242, 1) 0%,
+    rgba(66, 125, 159, 1) 100%
+  );
+}
+.popular-marker-buttons {
+  margin-top: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+.right-des {
+  max-width: 97%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.entry-to-get-banner {
+  padding: 16px;
+  background: rgb(26, 37, 50);
+  background: linear-gradient(
+    100deg,
+    rgba(26, 37, 50, 1) 0%,
+    rgba(30, 41, 54, 0.6082633737088585) 100%
+  );
+  font-size: 12px;
+}
+.entry-to-get-banner p {
+  color: #c6d4df;
+}
+.play-cs2 {
+  background: rgb(45, 61, 75);
+  background: linear-gradient(
+    100deg,
+    rgba(45, 61, 75, 1) 0%,
+    rgba(87, 102, 116, 1) 100%
+  );
+  padding: 16px 16px 0px 16px;
+  border-radius: 3px;
+  font-size: 20px;
+}
+.section-content-left {
+  max-width: 600px;
+}
+.play-cs2__label {
+  display: flex;
+  justify-content: space-between;
+}
+.cena {
+  display: flex;
+  background-color: black;
+  padding: 3px;
+  justify-content: space-between;
+  max-width: 35%;
+  height: 32px;
+  position: relative;
+  top: 15px;
+  left: 65%;
+}
+.cena button {
+  padding: 0 15px;
+  font-size: 15px;
+  border-style: none;
+  background: linear-gradient(to right, #83c724 5%, #6aa621 95%);
+  border-radius: 2px;
+  color: #b2ec78;
+}
+.cena button:hover {
+  background: linear-gradient(to right, #b4e272 5%, #6aa621 95%);
+  color: white;
+  cursor: pointer;
+}
+.cena__cena {
+  padding-left: 12px;
+  padding-top: 8px;
+  padding-right: 12px;
+  font-size: 13px;
 }
