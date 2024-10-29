@@ -393,7 +393,145 @@ body {
     rgba(44, 60, 74, 1) 0%,
     rgb(46, 62, 82) 100%
   );
-  padding: 25px;
+  padding: 20px;
   font-size: 12px;
   color: #929ca6;
+  text-align: right;
+}
+.moneyback a {
+  text-decoration: underline;
+  color: #929ca6;
+}
+.buy-comlete-pack {
+  background: rgb(45, 61, 75);
+  background: linear-gradient(
+    100deg,
+    rgba(45, 61, 75, 1) 0%,
+    rgba(87, 102, 116, 1) 100%
+  );
+  padding: 16px 16px 32px 16px;
+  border-radius: 3px;
+  font-size: 20px;
+  margin-top: 50px;
+}
+.buy-comlete-pack__zag {
+  display: flex;
+  justify-content: space-between;
+}
+.buy-comlete-pack__zag-text span {
+  color: #a4d7f5;
+  text-transform: uppercase;
+}
+.buy-comlete-pack__economy-text {
+  font-size: 12px;
+  color: #c6d4df;
+  padding: 5px 0px;
+}
+.valve-games-miniscreens {
+  outline: 5px solid #171f26;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+}
+.complete-pack-cena {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  gap: 5px;
+  position: relative;
+  top: 45px;
+  left: 65px;
+}
+.complete-pack-cena__info-about {
+  background-color: black;
+  padding: 2px;
+  height: 100%;
+}
+.complete-pack-cena__nabor {
+  background: rgb(60, 161, 240);
+  background: linear-gradient(
+    90deg,
+    rgba(60, 161, 240, 1) 0%,
+    rgba(37, 97, 208, 1) 100%
+  );
+  color: #c3e1f8;
+  border-style: none;
+  font-size: 15px;
+  border-radius: 2px;
+  padding: 0px 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.complete-pack-cena__add-cart {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  padding: 3px;
+  height: 32px;
+
+  align-items: center;
+}
+.complete-pack-cena__discont {
+  color: #58595c;
+  padding: 0px 5px;
+}
+.complete-pack-cena__discont-green {
+  background-color: #4c6b22;
+  color: #beee11;
+  font-size: 25px;
+}
+
+.complete-pack-cena__full-price {
+  background-color: #344654;
+  color: #beee11;
+  font-size: 16px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.complete-pack-cena__button {
+  padding: 0px 15px;
+  font-size: 15px;
+  border-style: none;
+  background: linear-gradient(to right, #83c724 5%, #6aa621 95%);
+  border-radius: 2px;
+  color: #b2ec78;
+  height: 100%;
+}
+.content-for-game {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.content-for-game__label {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+.content-for-game__button {
+  font-size: 10px;
+  outline: 1px solid #767e88;
+  padding: 0 13px;
+  display: flex;
+  align-items: center;
+  border-radius: 1px;
+}
+.cs-sound {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  background: rgb(45, 61, 75);
+  background: linear-gradient(
+    100deg,
+    rgba(45, 61, 75, 1) 0%,
+    rgba(87, 102, 116, 1) 100%
+  );
+  padding: 3px 10px;
+  color: #a8b2ba;
+  margin-top: 5px;
+}
+.cs-sound__free {
+  color: white;
 }
