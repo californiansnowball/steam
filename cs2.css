@@ -511,9 +511,9 @@ body {
   letter-spacing: 0.03em;
 }
 .content-for-game__button {
-  font-size: 10px;
+  font-size: 11px;
   outline: 1px solid #767e88;
-  padding: 0 13px;
+  padding: 2px 13px;
   display: flex;
   align-items: center;
   border-radius: 1px;
@@ -534,4 +534,96 @@ body {
 }
 .cs-sound__free {
   color: white;
+}
+.recent-events {
+  margin-top: 50px;
+}
+.recent-events-header {
+  display: flex;
+  justify-content: space-between;
+}
+.recent-events-header__label {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+.recent-events-header__button-show {
+  font-size: 11px;
+  outline: 1px solid #767e88;
+  padding: 2px 13px;
+  display: flex;
+  align-items: center;
+  border-radius: 1px;
+}
+.recent-events-cards__card img {
+  max-width: 100%;
+  height: auto;
+}
+.recent-events-cards {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.recent-events-cards__card {
+  display: flex;
+  flex-direction: column;
+}
+.recent-events-cards-description {
+  height: 61px;
+}
+.recent-events-cards-description {
+  background-color: #222e37;
+  padding: 10px 15px 40px 15px;
+}
+
+.recent-events-cards-description__text {
+  font-size: 15px;
+  max-height: 39px;
+  line-height: 19px;
+}
+.recent-events-cards-description__date {
+  color: #b8b9ba;
+  font-size: 13px;
+  margin-top: 7px;
+}
+.about-game__header {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+.about-game__text {
+  color: #acb2b8;
+  line-height: 1.5em;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.about-game__text ul {
+  list-style: square;
+  margin-left: 2%;
+}
+.about-game__text ul li {
+  padding: 5px 0px;
+}
+.adult-content__header {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+.adult-content__description {
+  color: #acb2b8;
+  line-height: 1.5em;
+  font-size: 14px;
+}
+.adult-content__text {
+  color: #acb2b8;
+  line-height: 1.5em;
+  font-size: 14px;
+  font-style: italic;
+  padding-top: 5px;
 }
