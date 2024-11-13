@@ -880,3 +880,100 @@ body {
   border-radius: 2px;
   font-size: 15px;
 }
+.awards {
+  margin-bottom: 20px;
+}
+.awards__banner {
+  padding: 20px;
+  background: url(./img/StoreBanner.jpg);
+  background-position: center;
+  border: 2px solid #3c3524;
+}
+.awards__header {
+  font-size: 12px;
+  color: #8f98a0;
+  margin-bottom: 10px;
+}
+.awards__prem {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.awards__prem span {
+  color: #f5db7e;
+}
+.awards__winner {
+  background-color: #67501e;
+  color: #fff;
+  padding: 2px 6px;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.awards__favorite {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff8df;
+  line-height: 25px;
+}
+.awards__img {
+  height: 160px;
+}
+.awards__awards {
+  display: flex;
+  justify-content: space-between;
+}
+.rewiws-section {
+  margin-top: 50px;
+}
+.rewiws-header {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+.rewiws-header span {
+  color: #56707f;
+}
+.rewiws-left-rewiew {
+  background-color: #16202d;
+  width: 620px;
+}
+.rewiews-avatar {
+  height: 34px;
+  border: 2px solid gray;
+}
+.rewiws-left-rewiew {
+  display: flex;
+}
+
+.rewiws-left-rewiew__user {
+  display: flex;
+  gap: 10px;
+  width: 215px;
+}
+.rewiws-user-data-rew {
+  font-size: 11px;
+}
+.rewiws-user-data {
+  color: #788b9f;
+}
+.rewiws-user-data-name {
+  font-size: 13px;
+  font-weight: bold;
+}
+.rewiws-right {
+  display: flex;
+  gap: 5px;
+  background-color: #121a24;
+}
+.rewiws-recomend__recomend {
+  font-size: 16px;
+}
+.rewiws-recomend__game-time {
+  font-size: 11px;
+  color: #788b9f;
+}
